@@ -114,7 +114,7 @@ CREATE TABLE IF NOT EXISTS `shopping-cart`.`user_demand` (
   INDEX `prodid_idx` (`prodid` ASC) VISIBLE,
   CONSTRAINT `userdemailemail`
     FOREIGN KEY (`username`)
-    REFERENCES `shopping-cart`.`user` (`email`)
+    REFERENCES `SwiftCart`.`user` (`email`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `prodid`
