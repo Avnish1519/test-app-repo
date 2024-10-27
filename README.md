@@ -51,7 +51,7 @@ Step 2 : Go to https://myaccount.google.com/security and check if 2 step verific
 
 Step 3: Go to https://myaccount.google.com/apppasswords and enter password if asked
 
-Step 4: In Select an App Section: select Other (custom name) => enter "Ellison Electronics" => Generate
+Step 4: In Select an App Section: select Other (custom name) => enter SwiftCart" => Generate
 
 Step 5: After that it will generate 16 digits app password which you need to copy and save for future configurations.
 
@@ -60,7 +60,7 @@ Step 6: Done : Now continue to importing the project. [Don't share the above pas
 ========== Importing and Running The Project Through Eclipse EE ==========
 Step 1: Open Eclipse Enterprise Edition. [Install, if not already installed.]
 
-Step 2: Click On File > Import > Git > Projects From Git > Clone Uri > Paste The Repository Url as: https://github.com/shashirajraja/shopping-cart.git> Select master Branch > Next > Next > Finish.
+Step 2: Click On File > Import > Git > Projects From Git > Clone Uri > Paste The Repository Url as: https://github.com/Avnish1519/test-app-repo> Select master Branch > Next > Next > Finish.
 
 Step 3: Go inside Java Resources > src > application.properties and update the values as below:
 
@@ -76,7 +76,7 @@ Step 7: Tomcat Configurations:
 
 If Tomcat Server is not configured in Eclipse :
 
-Right Click On Project > Run As > Run On Server > Manually Define a new server > Select server type > select Tomcat v8.0+ > (Select Tomcat V8.0+ Installation Location If Asked) > Next > Add the current project > Finish.
+Right Click On Project > Run As > Run On Server > Manually Define a new server > Select server type > select Tomcat v8.0+ > (Select Tomcat V8.5+ Installation Location If Asked) > Next > Add the current project > Finish.
 Else If Tomcat Server is already configured in Eclipse:
 
 Right Click On Project > Run As > Run On Server > Select Tomcat Version > Next > Add the project > Finish.
